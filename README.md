@@ -6,13 +6,13 @@ Welcome to the documentation for my self-hosted homelab. This project is a hands
 
 This section outlines the core technologies and domains that define the scope of my homelab. Each tool and service has been chosen to support hands-on learning in areas such as container orchestration, AI deployment, network management and infrastructure automation. Together, they form a modular and extensible environment for experimenting with modern DevOps and self-hosted systems.
 
-- **Containerization & Orchestration**: Docker, Kubernetes (kubeadm), Helm
+- **Containerization And Orchestration**: Docker, Kubernetes (kubeadm), Helm
 - **AI/ML Inference**: Ollama with Mistral-7B, Retrieval-Augmented Generation (RAG)
-- **Networking & DNS**: OPNsense firewall, Pi-hole with Conditional Forwarding
-- **Storage & Backups**: TrueNAS Core, ZFS, automated rsync backup scripts
-- **Monitoring & Observability**: Prometheus, Grafana
-- **Infrastructure as Code**: Ansible (in progress), YAML manifests
-- **Security & Access**: SSH hardening, VLANs, local-only service exposure
+- **Networking And DNS**: OPNsense firewall, Pi-hole with Conditional Forwarding
+- **Storage And Backups**: TrueNAS Core, ZFS, automated rsync backup scripts
+- **Monitoring And Observability**: Prometheus, Grafana
+- **Infrastructure As Code**: Ansible (in progress), YAML manifests
+- **Security And Access**: SSH hardening, VLANs, local-only service exposure
 - **Linux Administration**: Ubuntu Server, Linux Mint, shell scripting
 
 ## Current Status
