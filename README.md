@@ -2,6 +2,12 @@
 
 Welcome to the documentation for my self-hosted homelab. This project is a hands-on environment where I deploy and manage a local Kubernetes cluster running the Mistral-7B model for private AI inference. It also includes core services like Pi-hole, TrueNAS and OPNsense to support DevOps workflows, network security and infrastructure experimentation.
 
+## Network Topology
+
+The following diagram shows the current physical layout of my homelab:
+
+![Homelab Network Topology](https://hosting.photobucket.com/bbcfb0d4-be20-44a0-94dc-65bff8947cf2/b5950ae8-e3a6-4f62-a51d-4a7f8226bd90.jpg)
+
 ## Focus Areas And Technologies
 
 This section outlines the core technologies and domains that define the scope of my homelab. Each tool and service has been chosen to support hands-on learning in areas such as container orchestration, AI deployment, network management and infrastructure automation. Together, they form a modular and extensible environment for experimenting with modern DevOps and self-hosted systems.
