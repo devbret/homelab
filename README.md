@@ -13,12 +13,19 @@ The following diagram shows the current physical layout of my homelab:
 This section outlines the core technologies and domains that define the scope of my homelab. Each tool and service has been chosen to support hands-on learning in areas such as container orchestration, AI deployment, network management and infrastructure automation. Together, they form a modular and extensible environment for experimenting with modern DevOps and self-hosted systems.
 
 - **Containerization And Orchestration**: Docker, Kubernetes (kubeadm), Helm
+
 - **AI/ML Inference**: Ollama with Mistral-7B, Retrieval-Augmented Generation (RAG)
+
 - **Networking And DNS**: OPNsense firewall, Pi-hole with Conditional Forwarding
-- **Storage And Backups**: TrueNAS Core, ZFS, automated rsync backup scripts
+
+- **Storage And Backups**: TrueNAS SCALE (ZFS mirror pool), automated rsync backups over SSH with logging
+
 - **Monitoring And Observability**: Prometheus, Grafana
+
 - **Infrastructure As Code**: Ansible (in progress), YAML manifests
+
 - **Security And Access**: SSH hardening, VLANs, local-only service exposure
+
 - **Linux Administration**: Ubuntu Server, Linux Mint, shell scripting
 
 ## Current Status
@@ -29,13 +36,20 @@ Recent breakthroughs include upgrading the RAM on both homelab nodes to support 
 
 Ongoing tasks include fine-tuning the Prometheus and Grafana monitoring stack to track resource usage and container health, improving logging and alerting mechanisms, and documenting infrastructure architecture to support reproducibility. I'm also researching and planning GitOps-style automation using tools like ArgoCD or Flux to improve deployment consistency and version control for infrastructure changes.
 
+### Ongoing Tasks
+
+- Finalizing a robust, passwordless SSH backup workflow to TrueNAS SCALE with rsync
+
 ## Seeking To Learn/Improve
 
 My homelab serves as a long-term platform for skill development and technical exploration. By building and managing every layer of the stack myself, I am actively working to deepen my understanding of core DevOps practices, infrastructure resilience and the deployment of self-hosted AI systems. The following areas represent key learning goals that guide the direction of this project.
 
 - Mastering Kubernetes and self-hosted LLM deployment workflows
+
 - Improving infrastructure automation with Ansible and CI pipelines
+
 - Deepening knowledge of secure networking, ZFS storage, and system observability
+
 - Building a reliable, reproducible environment for future AI experiments
 
 ## Repository Structure
