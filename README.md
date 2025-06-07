@@ -40,6 +40,8 @@ Ongoing tasks include fine-tuning the Prometheus and Grafana monitoring stack to
 
 - Finalizing a robust, passwordless SSH backup workflow to TrueNAS SCALE with rsync
 
+- Transitioning my Raspberry Pi 5 to boot and operate entirely from an NVMe drive, enabling faster read/write speeds and better reliability for running services and long-term logging tasks in my homelab setup
+
 ## Seeking To Learn/Improve
 
 My homelab serves as a long-term platform for skill development and technical exploration. By building and managing every layer of the stack myself, I am actively working to deepen my understanding of core DevOps practices, infrastructure resilience and the deployment of self-hosted AI systems. The following areas represent key learning goals that guide the direction of this project.
